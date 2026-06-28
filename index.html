@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TDrive - Unlimited Storage</title>
+  
+  <!-- Icon & Theme Color (Opsional, agar bagus saat dibuka di HP) -->
+  <meta name="theme-color" content="#2563eb">
+  
+  <style>
+    /* Reset CSS agar full screen dan bersih */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* Mencegah scrollbar ganda */
+      background-color: #f8fafc; /* Warna bg-slate-50 bawaan Tailwind */
+    }
+
+    /* Mengatur Iframe agar bertindak seperti aplikasi Native */
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Webview / Iframe menuju Google Apps Script -->
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbxiRdipzExtv3m3ptLRSoTs5zQgte5HGEi9WGe1NNjYmXZjrQsIqxOAI5C7W4y864lDqw/exec" 
+    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe>
+
+</body>
+</html>
